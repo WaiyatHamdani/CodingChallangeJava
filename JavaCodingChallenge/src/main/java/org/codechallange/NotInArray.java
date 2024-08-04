@@ -19,11 +19,9 @@ public class NotInArray {
         for (int num : array) {
             set.add(num);
         }
-
         while (set.contains(smallestNumber)) {
             smallestNumber++;
         }
-
         return smallestNumber;
     }
 
